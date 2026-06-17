@@ -1,1 +1,0 @@
-public class Program3_ToCharArrayCompare {}

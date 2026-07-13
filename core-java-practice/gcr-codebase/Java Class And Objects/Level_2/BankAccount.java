@@ -1,0 +1,1 @@
+package level2; class BankAccount{String h,n;double b;BankAccount(String h,String n,double b){this.h=h;this.n=n;this.b=b;}void deposit(double x){b+=x;}void withdraw(double x){if(b>=x)b-=x;}public static void main(String[]a){BankAccount x=new BankAccount("R","1",100);x.deposit(50);x.withdraw(20);System.out.println(x.b);}}

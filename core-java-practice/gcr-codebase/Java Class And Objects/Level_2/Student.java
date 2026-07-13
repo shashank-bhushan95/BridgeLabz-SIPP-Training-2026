@@ -1,0 +1,1 @@
+package level2; class Student{String name;int rollNumber,marks;Student(String n,int r,int m){name=n;rollNumber=r;marks=m;}String grade(){if(marks>=90)return"A";if(marks>=75)return"B";if(marks>=60)return"C";return"F";}void display(){System.out.println(name+" "+grade());}public static void main(String[]a){new Student("R",1,90).display();}}

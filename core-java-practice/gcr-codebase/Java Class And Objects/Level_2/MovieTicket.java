@@ -1,0 +1,1 @@
+package level2; class MovieTicket{String m,s;double p;void book(String m,String s,double p){this.m=m;this.s=s;this.p=p;}void display(){System.out.println(m+" "+s+" "+p);}public static void main(String[]a){MovieTicket t=new MovieTicket();t.book("Movie","A1",200);t.display();}}

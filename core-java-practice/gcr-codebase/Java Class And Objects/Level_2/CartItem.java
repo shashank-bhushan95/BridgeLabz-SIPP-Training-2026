@@ -1,0 +1,1 @@
+package level2; class CartItem{String n;double p;int q;CartItem(String n,double p){this.n=n;this.p=p;}void add(int x){q+=x;}void remove(int x){if(q>=x)q-=x;}double total(){return p*q;}public static void main(String[]a){CartItem c=new CartItem("Book",100);c.add(3);System.out.println(c.total());}}

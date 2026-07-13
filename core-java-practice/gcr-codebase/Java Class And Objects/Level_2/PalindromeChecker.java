@@ -1,0 +1,1 @@
+package level2; class PalindromeChecker{String t;PalindromeChecker(String t){this.t=t;}boolean check(){return t.equalsIgnoreCase(new StringBuilder(t).reverse().toString());}public static void main(String[]a){System.out.println(new PalindromeChecker("madam").check());}}
